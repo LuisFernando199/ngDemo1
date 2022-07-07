@@ -1,0 +1,30 @@
+body{ 
+    padding: 0;
+     margin: 0;
+     
+    }
+form{ 
+    max-width: 25em;
+     margin: 1em auto;
+    }
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    display: block;
+}    
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+img{
+    max-width: 100%;
+}
